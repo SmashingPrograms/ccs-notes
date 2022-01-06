@@ -76,8 +76,6 @@ setTimeout(function() {
 
 //this function will run NO LESS THAN but possibly greater than X milliseconds
 
-//setInterval is to repeat it every X milliseconds
-const time = setInterval(function() {
+setInterval(function() {
   alert("JavaScript makes me happy!");
-  clearInterval(time); //how to stop it after a certain point
 }, 10000)
