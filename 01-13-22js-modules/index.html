@@ -1,0 +1,28 @@
+<!--
+A module is a file that contains code that you can make available in other places.
+* Organizes our codebase
+* Instead of having 1 large JS file, have many small ones broken out
+* Prevents us from having to rewrite code
+* Makes it more manageable.
+
+Modules have strict mode enabled BY DEFAULT.
+* Value of "this" is undefined in a module
+* Variables we declare there are not gonna leak out, it will not pollute the mainspace
+
+
+
+
+You can download the Live Server extension on VS Code. YOU CANNOT RUN THIS ON A FILE LOCATION
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Modules</title>
+  </head>
+  <body>
+    <script src="./scripts/person.js" type="module"></script>
+  </body>
+</html>
