@@ -1,0 +1,46 @@
+/*
+
+#navigation li;
+
+
+#container > p;
+* Children only, not grandchildren
+
+p ~ img;
+* Images that are siblings to paragraph
+
+input[type=text]
+* Target any input with the type text
+
+a:visited
+a:hover
+* pseudoclass
+
+li::before
+* pseudoelement
+
+
+
+*/
+
+p {
+  color: red;
+}
+
+* { /* global styles */
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+span {
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+/*
+Inline elements cannot have height or width set on them!
+*/
