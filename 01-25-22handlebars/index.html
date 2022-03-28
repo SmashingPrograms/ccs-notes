@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handlebars</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <p>Instructions link: https://handlebarsjs.com/guide/#what-is-handlebars</p>
+    <!-- <div class="student-info">
+
+    </div>
+    <script
+      id="student-template"
+      type="text/x-handlebars-template"
+    >
+      <p>name: {{name}}</p>
+      <p>pet: {{pet}}</p>
+      <p>hometown: {{hometown}}</p>
+    </script> -->
+
+    <div class="container"></div>
+    <script
+      id="rover-image-template"
+      type="text/x-handlebars-template"
+    >
+      {{#each photos}}
+        <div class="image-container"><img src="{{this.img_src}}" style="width: 500px;" alt=""></div>
+      {{/each}}
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

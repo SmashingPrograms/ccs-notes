@@ -1,0 +1,14 @@
+<h1>Django Book App</h1>
+
+<ul>
+  {% for book in object_list %}
+  <li>
+    <h2>
+      Title: {{book.title}}
+    </h2>
+    <p>
+      Author: {{book.author}}
+    </p>
+  </li>
+  {% endfor %}
+</ul>
